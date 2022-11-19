@@ -1,0 +1,102 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+.back_ground{
+    display: flex;
+    background-color:#fff;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+   
+}
+.header{
+    display: flex;
+    padding: 30px 30px;
+    height: 150px;
+    text-align: right;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    
+}
+.in_put{
+    font-size: 35px;
+    padding-bottom: 30px ;
+    color: #fff;
+}
+.out_put{
+    padding-top: 5px;
+    color: rgb(196, 190, 190);
+    font-size: 25px; 
+}
+
+
+.cal_container{
+    background-color:rgb(32, 32, 32);
+    border-radius: 30px;
+    padding: 8px 8px;
+}
+.cal_body{
+  padding: 5px 8px 20px 8px;
+    display: flex;
+    flex-direction: column;
+    
+   
+
+}
+.div_row{
+    display: flex;
+}
+#buttons{
+    height: 60px;
+    width: 60px;
+    margin:4px;
+    font-size: 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    border: none;
+    
+}
+.btn{
+    background-color: rgba(126, 125, 125, 0.825);
+    color: #fff;
+}
+.right_op{
+    background-color: rgb(241, 148, 49);
+    color: #fff;
+}
+
+#buttons:active{
+    background-color: rgba(240, 255, 255, 0.571);
+
+}
+#buttons:hover{
+    cursor: pointer;
+}
+
+@keyframes big {
+    0%{
+        font-size: 25px;
+        color: #fff;
+    }
+    100%{
+        font-size: 35px;
+        color: #fff;
+    }
+}
+@keyframes small{
+    0%{
+        font-size: 35px;
+        color: rgb(196, 190, 190);
+    }
+    100%{
+        font-size: 25px;
+         color: rgb(196, 190, 190);
+    }
+}
+
